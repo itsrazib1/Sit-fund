@@ -11,6 +11,61 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <style>
+      .container{
+          max-width: 1000px;
+          margin: 0 auto;
+      }
+  
+      .my-container{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+  
+      .card{
+          width: 250px;
+          height: 350px;
+          background: white;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          border-radius: 10px;
+          margin: 15px;
+          padding: 20px;
+          transition: transform 0.5s;
+      }
+  
+      .card:hover{
+          transform: scale(1.1);
+      }
+  
+      .card h1{
+          font-size: 2rem;
+          margin: 0;
+          color: #333;
+      }
+  
+      .card p{
+          font-size: 1rem;
+          margin-top: 5px;
+          color: #555;
+      }
+  
+      .card img{
+          width: 200px;
+          height: 200px;
+          margin: 10px 0;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 5px solid #D3D3D3;
+      }
+  
+      @media only screen and (max-width: 768px){
+          .card{
+              width: 300px;
+              height: 420px;
+          }
+      }
+  </style>
     <title>Sit fund</title>
   </head>
   <body>
