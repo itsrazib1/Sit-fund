@@ -10,7 +10,15 @@ input{
     .btnaddx{
         margin: 0px;
     }
+input{
+    height: 30px;
+    width: 80px;
+}
     .mainX{
-        max-width: fit-content;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        border: 2px solid black;
+        padding: 1px;
     }
   }
